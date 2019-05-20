@@ -1,0 +1,288 @@
+vstdlib.dll:
+	- VProcessUtils002
+	- EventSystem001
+	- VEngineCvar007
+
+filesystem_stdio.dll:
+	- QueuedLoaderVersion001
+	- VNewAsyncFileSystem001
+	- VBaseFileSystem011
+	- VFileSystem017
+
+engine.dll:
+	- VEngineVGui001
+	- VSERVERENGINETOOLS001
+	- VCLIENTENGINETOOLS001
+	- VTOOLFRAMEWORKVERSION002
+	- VENGINETOOLFRAMEWORK003
+	- VENGINETOOL003
+	- XboxSystemInterface002
+	- VProfExport001
+	- VoiceServer002
+	- VENGINE_GAMEUIFUNCS_VERSION005
+	- VENGINE_HLDS_API_VERSION002
+	- VENGINE_LAUNCHER_API_VERSION004
+	- FileLoggingListener001
+	- StaticPropMgrServer002
+	- StaticPropMgrClient005
+	- SpatialPartition001
+	- VEngineRandom001
+	- VEngineServerStringTable001
+	- VEngineClientStringTable001
+	- INETSUPPORT_003
+	- VModelInfoClient004
+	- VModelInfoServer002
+	- GAMEEVENTSMANAGER001
+	- GAMEEVENTSMANAGER002
+	- EngineTraceClient004
+	- EngineTraceServer004
+	- VCvarQuery001
+	- BugReporterUserName001
+	- BlackBoxVersion001
+	- VEngineServer023
+	- ServerUploadGameStats001
+	- GameServerData001
+	- ISERVERPLUGINHELPERS001
+	- VEngineRenderView014
+	- VEngineShadowMgr002
+	- VEngineEffects001
+	- VEngineModel016
+	- VPhysicsDebugOverlay001
+	- VDebugOverlay004
+	- VEngineClient014
+	- IEngineSoundServer003
+	- IEngineSoundClient003
+
+inputsystem.dll:
+	- InputSystemVersion001
+	- InputStackSystemVersion001
+
+vphysics.dll:
+	- VPhysicsSurfaceProps001
+	- VPhysicsCollision007
+	- VPhysics031
+
+materialsystem.dll:
+	- ShaderDLL004
+	- ShaderSystem002
+	- VMaterialSystemStub001
+	- VEngineCvar007
+	- MaterialSystemHardwareConfig013
+	- VMaterialSystemConfig004
+	- VMaterialSystem080
+	- COLORCORRECTION_VERSION_1
+
+datacache.dll:
+	- VResourceAccessControl001
+	- VPrecacheSystem001
+	- VStudioDataCache005
+	- MDLCache004
+	- VDataCache003
+
+studiorender.dll:
+	- VStudioRender026
+
+soundemittersystem.dll:
+	- VSoundEmitter003
+
+vscript.dll:
+	- VScriptManager009
+
+soundsystem.dll:
+	- SoundSystem001
+
+valve_avi.dll:
+	- VAvi001
+
+vguimatsurface.dll:
+	- SchemeSurface001
+	- VGUI_Surface031
+
+vgui2.dll:
+	- VGUI_Panel009
+	- VGUI_ivgui008
+	- VGUI_System010
+	- SchemeSurface001
+	- VGUI_Surface031
+	- VGUI_Scheme010
+	- VGUI_InputInternal001
+	- VGUI_Input005
+
+panoramauiclient.dll:
+	- PanoramaUIClient001
+
+panorama.dll:
+	- PanoramaUIEngine001
+
+shaderapidx9.dll:
+	- ShaderShadow010
+	- ShaderDeviceMgr001
+	- DebugTextureInfo001
+	- ShaderDevice001
+	- ShaderApi029
+	- MaterialSystemHardwareConfig013
+	- VBAllocTracker001
+
+imemanager.dll:
+	- IMEManager001
+
+localize.dll:
+	- Localize_001
+
+panorama_text_pango.dll:
+	- PanoramaTextServices001
+
+steamclient.dll:
+	- IVALIDATE001
+	- CLIENTENGINE_INTERFACE_VERSION005
+	- SteamClient018
+	- SteamClient017
+	- SteamClient016
+	- SteamClient015
+	- SteamClient014
+	- SteamClient013
+	- SteamClient012
+	- SteamClient011
+	- SteamClient010
+	- SteamClient009
+	- SteamClient008
+	- SteamClient007
+	- SteamClient006
+	- p2pvoice002
+	- p2pvoicesingleton002
+
+vstdlib_s.dll:
+	- IVALIDATE001
+	- VEngineCvar002
+
+stdshader_dbg.dll:
+	- ShaderDLL004
+
+stdshader_dx9.dll:
+	- ShaderDLL004
+
+matchmaking.dll:
+	- MATCHFRAMEWORK_001
+	- VENGINE_GAMETYPES_VERSION002
+
+client_panorama.dll:
+	- VCLIENTTOOLS001
+	- CustomSteamImageOnModel_IMaterialProxy003
+	- ItemTintColor_IMaterialProxy003
+	- VGuiModuleLoader003
+	- RunGameEngine005
+	- GameUI011
+	- GameConsole004
+	- VENGINE_GAMETYPES_VERSION002
+	- VClientPrediction001
+	- GameMovement001
+	- RenderToRTHelper001
+	- VParticleSystemQuery004
+	- IEffects001
+	- ClientAlphaPropertyMgrV001
+	- ClientLeafSystem002
+	- VClientEntityList003
+	- VCLIENTMATERIALSYSTEM001
+	- VClient018
+	- VClientDllSharedAppSystems001
+	- GameClientExports001
+	- ClientRenderTargets001
+
+server.dll:
+	- VSERVERTOOLS001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- VENGINE_GAMETYPES_VERSION002
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- HLTVDirector001
+	- ServerGameTags001
+	- ServerGameTags001
+	- GameMovement001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+	- PluginHelpersCheck001
+	- BotManager001
+	- PlayerInfoManager002
+	- PlayerInfoManager001
+	- ServerGameTags001
+	- ServerGameTags001
+	- VServerDllSharedAppSystems001
+	- ServerGameClients004
+	- ServerGameEnts001
+	- ServerGameDLL005
+	- ServerGameTags001
+	- IEffects001
+	- ServerGameTags001
+	- ServerGameTags001
+	- ServerGameTags001
+
+scenefilecache.dll:
+	- SceneFileCache002
+
+vaudio_miles.dll:
+	- vaudio_miles
+	- VAudio002
+
+vaudio_celt.dll:
+	- vaudio_celt
+
+serverbrowser.dll:
+	- VGuiModuleServerBrowser001
+	- ServerBrowser003
+
